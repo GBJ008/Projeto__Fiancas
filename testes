@@ -17,3 +17,5 @@ saldo = total_entradas - total_despesas
 print("Total de entradas:", total_entradas)
 print("Total de despesas:", total_despesas)
 print("Saldo final:", saldo)
+
+
