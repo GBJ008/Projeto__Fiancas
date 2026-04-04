@@ -12,17 +12,21 @@ print('Vamos começar!!!')
 
 time.sleep(0.50)
 #Valores de entradas 
+
 tem_mais_1entrdas= input('Tem mais de uma entrada esss mês? Sim ou Não ').upper()
 print('Beleza, vamos lá...')
 
-if tem_mais_1entrdas == 'SIM':
+def despesas():
+ if tem_mais_1entrdas == 'SIM':
+
+
     quantidade_entrada = int(input('Digite a quantidade: '))
 
     for i in range (quantidade_entrada):
         valor= float(input('Digite os valores que foram recebidos: '))
         ValoresEntrada.append(valor)
 
-elif tem_mais_1entrdas == 'NÃO':
+ elif tem_mais_1entrdas == 'NÃO':
    valor= float(input('Digite o valor que foi recebido: '))
    ValoresEntrada.append(valor)
 
@@ -32,14 +36,15 @@ print(40*'_')
 
 Tem_despesas_fixa = input('E de despesas fixas tem mais de uma? Sim ou Não ').upper()
 
-if Tem_despesas_fixa == 'SIM':
+def depesaFixa():
+ if Tem_despesas_fixa == 'SIM':
     QuantidadeFixa = int(input('Digite a quantidade de despesas fixas: '))
 
     for i  in range (QuantidadeFixa):
      valor= float(input('Digite o valor das despesas fixas: '))
      Valores_despesa_fixa.append(valor)
 
-elif Tem_despesas_fixa == 'NÃO':
+ elif Tem_despesas_fixa == 'NÃO':
     Valor = float(input('Digite o valor de despesa fixa: '))
     Valores_despesa_fixa.append(valor)
 
@@ -47,15 +52,17 @@ elif Tem_despesas_fixa == 'NÃO':
 print(40*'_')
 # Valores de entradas variaveis
 
-Mais_entrada_variaveis = input('tem mais de uma despesa váriavel? Sim ou Não ').upper()
-if Mais_entrada_variaveis == 'SIM':
+Mais_entrada_variaveis = input('tem mas de uma despesas váriavel? Sim ou Não ').upper()]
+
+def despesaVariavel():
+ if Mais_entrada_variaveis == 'SIM':
     quantidade_variavel = int(input('Quantas despesas váriavel: '))
 
     for i in range (quantidade_variavel):
      valor = float(input('Digite o valor das despesas variável: '))
      Valores_despesa_variavel.append(valor)
 
-elif Mais_entrada_variaveis == 'NÃO':
+ elif Mais_entrada_variaveis == 'NÃO':
     valor = float(input('Digite o valor da despesa variável: '))
     Valores_despesa_variavel.append(valor)
 
