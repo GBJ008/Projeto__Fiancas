@@ -1,4 +1,4 @@
-import time
+
 
 #entrada
 ValoresEntrada= []
@@ -10,7 +10,6 @@ nome = input('Por favor nós informe seu nome: ')
 print(f'Olá {nome}, seja bem vinda a sua planilha finaceira')
 print('Vamos começar!!!')
 
-time.sleep(0.50)
 #Valores de entradas 
 
 tem_mais_1entrdas= input('Tem mais de uma entrada esss mês? Sim ou Não ').upper()
