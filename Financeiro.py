@@ -1,5 +1,3 @@
-
-
 #entrada
 ValoresEntrada= []
 Valores_despesa_fixa = []
@@ -51,7 +49,7 @@ def depesaFixa():
 print(40*'_')
 # Valores de entradas variaveis
 
-Mais_entrada_variaveis = input('tem mas de uma despesas váriavel? Sim ou Não ').upper()]
+Mais_entrada_variaveis = input('tem mas de uma despesas váriavel? Sim ou Não ').upper()
 
 def despesaVariavel():
  if Mais_entrada_variaveis == 'SIM':
